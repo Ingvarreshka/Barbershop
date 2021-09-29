@@ -1,0 +1,39 @@
+.header {
+
+    &__wrapper {
+        
+}
+
+
+.container {}
+
+.logo {
+    background-color: lawngreen;
+    margin-left: 30px;
+}
+    
+
+.menu {
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    
+
+    &__list {}
+
+    &__btn {
+        width: 40px;
+        height: 40px;
+    }
+
+    &__svg {
+        background-color: black;
+    }
+
+    &__item {}
+}
+
+.contacts {}
+
+.contact {}
+}

@@ -1,4 +1,27 @@
-.logo {
-  fill: chartreuse;
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header .logo {
+  background-color: lawngreen;
+  margin-left: 30px;
+}
+.header .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header .menu__btn {
+  width: 40px;
+  height: 40px;
+}
+.header .menu__svg {
   background-color: black;
 }/*# sourceMappingURL=main.css.map */
