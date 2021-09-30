@@ -1,6 +1,13 @@
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a, li {
+  list-style: none;
+  text-decoration: none;
 }
 
 .header .logo {
@@ -24,4 +31,8 @@
 }
 .header .menu__svg {
   background-color: black;
+}
+.online-form {
+  background-color: #191C26;
+  color: #ffffff;
 }/*# sourceMappingURL=main.css.map */
