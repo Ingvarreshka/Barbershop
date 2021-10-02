@@ -32,7 +32,16 @@ a, li {
 .header .menu__svg {
   background-color: black;
 }
+.about {
+  outline: 3px solid red;
+}
+
+.price {
+  outline: 3px solid red;
+}
+
 .online-form {
   background-color: #191C26;
   color: #ffffff;
+  outline: 3px solid red;
 }/*# sourceMappingURL=main.css.map */
