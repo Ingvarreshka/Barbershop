@@ -40,6 +40,10 @@ a, li {
   outline: 3px solid red;
 }
 
+.master {
+  outline: 3px solid green;
+}
+
 .online-form {
   background-color: #191C26;
   color: #ffffff;

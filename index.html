@@ -19,7 +19,7 @@
 				<nav class="menu">
 					<img class="logo" src="./img/Logo.png" alt="логотип">
 					<button class="menu__btn">
-						<img class="menu__svg" src="./img/icon/navigation/menu_24px.svg" alt="">
+						<img class="menu__svg" src="./img/icon/navigation/menu_24px.svg" alt="кнопка бургер">
 					</button>
 					<ul class="menu__list">
 						<li class="menu__item"><a href="">О нас</a></li>
@@ -106,59 +106,102 @@
 
 	<!-- Статистика -->
 	<section class="statistic">
-		<span>старая традиционная школа</span>
-		<h2>Почему приходят именно к нам?</h2>
-		<p>О нас говорят только хорошее. Но лучше
-			1 раз увидеть и прочувствовать, чем 10 раз прочитать. </p>
-		<div></div>
-		<div></div>
-		<div></div>
+		<div>
+			<span>старая традиционная школа</span>
+			<h2>Почему приходят именно к нам?</h2>
+			<p>О нас говорят только хорошее. Но лучше
+				1 раз увидеть и прочувствовать, чем 10 раз прочитать. </p>
+		</div>
 		<div></div>
 	</section>
 
 	<!-- Наши мастера -->
-	<section class="masters">
+	<section class="master">
 		<span>для настоящих ценителей атмосферы</span>
 		<h2>Наши мастера</h2>
-		<ul>
-			<li><img src="./img/img1.jpg" alt="фото мастера">
-				<p>Extreme Barber</p>
-			</li>
-			<li><img src="img/img2.jpg" alt="фото мастера">
-				<p>Extreme Barber</p>
-			</li>
-			<li><img src="img/img3.jpg" alt="фото мастера">
-				<p>Extreme Barber</p>
-			</li>
-		</ul>
+		<div class="master__list">
+			<ul>
+				<li class="master__item">
+					<img src="./img/img1.jpg" alt="фото мастера" width="418">
+					<h3>John Smith</h3>
+					<p>Extreme Barber</p>
+					<ul class="soc__list">
+						<li class="soc__item"></li>
+						<li class="soc__item"></li>
+						<li class="soc__item"></li>
+						<li class="soc__item"></li>
+					</ul>
+				</li>
+				<li class="master__item">
+					<img src="img/img2.jpg" alt="фото мастера">
+					<h3>John Smith</h3>
+					<p>Extreme Barber</p>
+					<ul class="soc__list">
+						<li class="soc__item"></li>
+						<li class="soc__item"></li>
+						<li class="soc__item"></li>
+						<li class="soc__item"></li>
+					</ul>
+				</li>
+				<li class="master__item">
+					<img src="img/img3.jpg" alt="фото мастера">
+					<h3>John Smith</h3>
+					<p>Extreme Barber</p>
+					<ul class="soc__list">
+						<li class="soc__item"></li>
+						<li class="soc__item"></li>
+						<li class="soc__item"></li>
+						<li class="soc__item"></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
 	</section>
 
 	<!-- Примеры работ -->
-	<section>
-		<span>На латинском языке “барба” означает “борода”</span>
-		<img src="./img/Rectangle 25.jpg" alt="">
-		<img src="./img/Rectangle 26.jpg" alt="">
-		<img src="./img/Rectangle 27.jpg" alt="">
-		<img src="./img/Rectangle 28.jpg" alt="">
+	<section class="">
+		<p>На латинском языке “барба” означает “борода”</p>
+		<div class="">
+			<ul>
+				<li><img src="./img/Rectangle 25.jpg" alt=""></li>
+				<li><img src="./img/Rectangle 26.jpg" alt=""></li>
+				<li><img src="./img/Rectangle 27.jpg" alt=""></li>
+				<li><img src="./img/Rectangle 28.jpg" alt=""></li>
+			</ul>
+		</div>
 	</section>
 
 	<!-- форма отправки -->
 	<section class="online-form">
 		<h2>Онлайн запись</h2>
-		<a href="#">Отправить</a>
+		<!-- <a href="#">Отправить</a> -->
+		<input type="submit" class="primaty-btn">
 	</section>
 
 	<!-- футер -->
 	<footer class="footer">
-		<address>
+		<div>
+			<h2>Контакты</h2>
+			<div>
+				<address>
 
-		</address>
-		<a class="adress__contact" href="">+38044 111 11 11</a>
-		<a class="adress__contact" href="">barbershop@gmail.com</a>
-		<p>времы работы</p>
-		<p>Ежедневно с 9:00 до 22:00</p>
-		<a href="#">Instagram</a>
-		<a href="">Youtube</a>
+				</address>
+				<a class="adress__contact" href="">+38044 111 11 11</a>
+				<a class="adress__contact" href="">barbershop@gmail.com</a>
+			</div>
+
+			<div>
+				<span>времы работы</span>
+				<p>Ежедневно с 9:00 до 22:00</p>
+			</div>
+			<div class="copyright">
+				<p class="copy-text">&copy; Copyright <span>2021</span></p>
+				<div class="soc-box">
+					<a href="#">Instagram</a>
+					<a href="">Youtube</a>
+				</div>
+			</div>
+		</div>
 	</footer>
 </body>
 
