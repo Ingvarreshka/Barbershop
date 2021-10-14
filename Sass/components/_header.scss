@@ -1,32 +1,50 @@
 .header {
+    // background-image: url(/img/Slider.jpg);
+    
+    &__wrapper {
+        // display: flex;
+        // flex-wrap: wrap;
+        // // position: absolute;
+        
+  }
 
-&__wrapper {
+.container {
 
 }
 
-.container {}
-
 .logo {
-background-color: lawngreen;
-margin-left: 30px;
+
+    margin-left: 30px;
 }
 
 
 .menu {
-display: flex;
-justify-content:start;
-align-items: center;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+    // @media screen and (min-width:768px) {
+    //     justify-content: space-between;
+    // }
 
 
-&__list {}
+&__list {
+
+    // @media screen and (min-width:768px) {
+    //     display: flex;
+          
+    // }
+}
 
 &__btn {
-width: 40px;
-height: 40px;
+    // margin-left: 300px;
+    width: 40px;
+    height: 40px;
+    
 }
 
 &__svg {
-background-color: black;
+    background-color: black;
 }
 
 &__item {}
@@ -34,6 +52,8 @@ background-color: black;
 
 .contacts {}
 
-.contact {}
+.contact {
+    color: $footer-text;
+}
 
 }

@@ -1,8 +1,13 @@
-* {
+*::before,
+*::after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: OpenSans, Raleway;
 }
 
 a, li {
@@ -11,16 +16,15 @@ a, li {
 }
 
 .header .logo {
-  background-color: lawngreen;
   margin-left: 30px;
 }
 .header .menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -31,6 +35,14 @@ a, li {
 }
 .header .menu__svg {
   background-color: black;
+}
+.header .contact {
+  color: #9DA4BD;
+}
+
+.hero {
+  background-image: url(/img/Slider.jpg);
+  color: #ffffff;
 }
 .about {
   outline: 3px solid red;
