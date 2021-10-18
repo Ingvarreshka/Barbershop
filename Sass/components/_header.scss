@@ -3,9 +3,7 @@
     
     &__wrapper {
         // display: flex;
-        // flex-wrap: wrap;
-        // // position: absolute;
-        
+        // flex-wrap: wrap;     
   }
 
 .container {
@@ -19,9 +17,9 @@
 
 
 .menu {
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
+    // display: flex;
+    // justify-content:space-between;
+    // align-items: center;
 
     // @media screen and (min-width:768px) {
     //     justify-content: space-between;
@@ -29,7 +27,6 @@
 
 
 &__list {
-
     // @media screen and (min-width:768px) {
     //     display: flex;
           

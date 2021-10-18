@@ -1,0 +1,28 @@
+
+.container-example {
+    padding: 84px 0;
+}
+
+.pre-title {
+    padding-bottom: 44px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+    /* identical to box height */
+
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.example {
+
+    &__list {
+
+    }
+
+    &__item {
+
+    }
+}

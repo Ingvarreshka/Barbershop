@@ -1,3 +1,22 @@
 .price {
-    outline: 3px solid red;
+    outline: 3px solid brown;
+    padding: 84px 0;
+    background-image: url(/img/img.jpg);
+    color: $text-white;
+
+    &__container {
+        
+    }
+
+    &__list {}
+
+    &__item {}
 }
+
+.pre-title {}
+
+.title {}
+
+.contact {}
+
+
