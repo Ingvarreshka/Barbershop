@@ -19,8 +19,13 @@
 			<div class="header__wrapper">
 				<nav class="menu">
 					<img class="logo" src="./img/Logo.png" alt="логотип">
-					<button class="menu__btn">
-						<img class="menu__svg" src="./img/icon/navigation/menu_24px.svg" alt="кнопка бургер">
+					<button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+						<svg width="24" height="24" fill="currentColor" viewBox="0 0 20 20"
+							xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd"
+								d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+								clip-rule="evenodd"></path>
+						</svg>
 					</button>
 					<ul class="menu__list">
 						<li class="menu__item"><a href="">О нас</a></li>
@@ -35,6 +40,22 @@
 				</div>
 			</div>
 		</div>
+		<div class="menu-container js-menu-container" id="mobile-menu">
+			<button class="menu-toggle js-close-menu">
+				<svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+					<path fill-rule="evenodd"
+						d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+						clip-rule="evenodd"></path>
+				</svg>
+			</button>
+
+			<ul class="mobile-menu">
+				<li><a href="" class="link">О нас</a></li>
+				<li><a href="" class="link">Работы</a></li>
+				<li><a href="" class="link">Контакты</a></li>
+				<li><a href="" class="link">Карьера</a></li>
+			</ul>
+		</div>
 		<!-- Главная -->
 		<main class="hero">
 			<!-- <img class="hero__foto" src="./img/Slider.jpg" alt="главное фото" width="480px" , height="580px"> -->
@@ -46,6 +67,7 @@
 			<a class="contact" href="#">Назад</a>
 			<a class="contact" href="">Вперед</a>
 		</main>
+
 
 	</header>
 
