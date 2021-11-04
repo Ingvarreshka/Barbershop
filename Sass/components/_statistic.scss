@@ -5,11 +5,17 @@
 
 .title {}
 
-.container-number {}
+.container-number {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 48%;
+}
 
 .number-box {
     background-color: $statistic-bg;
-    width: 193px;
+    min-width: 193px;
+width: 48%;
     text-align: center;
 }
 .number-box p {

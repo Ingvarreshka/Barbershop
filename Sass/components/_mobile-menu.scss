@@ -1,17 +1,18 @@
 .menu-toggle {
     min-height: 40px;
     min-width: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
 
     margin: 0;
-    padding: 0;
+    padding-right: 31px;
     background-color: transparent;
     cursor: pointer;
     border: none;
     border-radius: 50%;
     outline: none;
+    color: $text-white;
 }
 
 @media (min-width: 768px) {
@@ -28,12 +29,12 @@
 .menu-container {
     position: fixed;
     top: 0;
-    left: 0;
-    width: 100vw;
+    right: 0;
+    width: 70%;
     height: 100vh;
-    padding: 32px;
+    // padding: 32px;
     background-color: $statistic-bg;
-    z-index: 999;
+    // z-index: 999;
 
     transform: translateX(100%);
     transition: transform 250ms ease-in-out;
@@ -41,17 +42,19 @@
 
 .menu-container.is-open {
     transform: translateX(0);
+    // padding: 32px;
+    z-index: 5;
 }
 
 .menu-container .menu-toggle {
     position: absolute;
     top: 16px;
-    right: 16px;
+    right: 0px;
     color: $footer-bg;
 }
 
 .mobile-menu {
-    padding: 0;
+    padding: 118px 144px 508px 40px;
     margin: 0;
     list-style: none;
 }
