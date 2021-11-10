@@ -1,25 +1,48 @@
  .statistic {
     padding: 84px 31px;
+    // justify-content: space-between;
+    
+     @media screen and (min-width:768px) {
+         display: flex;
+         justify-content: space-between;
+         width: 100%;
+     }
 }
-.section-why {}
+.section-why {
 
-.title {}
+     @media screen and (min-width:768px) {
+      width: 48%;
+     }
+}
+
+// .title {
+
+// }
 
 .container-number {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 48%;
+    
+     @media screen and (min-width:768px) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 48%;
+        padding: 0 100px;
+     }
 }
 
 .number-box {
     background-color: $statistic-bg;
-    min-width: 193px;
-width: 48%;
+    width: 170px;
+    // width: 48%;
     text-align: center;
+    margin-top: 30px;
 }
 .number-box p {
-    padding-top: 20px;
+    margin: 0;
+    // padding-top: 20px;
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
@@ -29,7 +52,7 @@ width: 48%;
 }
 .number-box span {
     display: block;
-    padding-bottom: 20px;
+    // padding-bottom: 20px;
     font-family: Open Sans;
     font-style: normal;
     font-weight: 600;

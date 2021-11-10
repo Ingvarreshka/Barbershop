@@ -191,6 +191,16 @@ a, li {
   outline: 3px solid red;
 }
 
+.pre-title::before {
+  width: 60px;
+  height: 1px;
+  background: #9DA4BD99;
+  content: "";
+  display: inline-block;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
 .price {
   outline: 3px solid brown;
   padding: 84px 0;
@@ -199,6 +209,23 @@ a, li {
 }
 .statistic {
   padding: 84px 31px;
+}
+@media screen and (min-width: 768px) {
+  .statistic {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .section-why {
+    width: 48%;
+  }
 }
 
 .container-number {
@@ -210,18 +237,31 @@ a, li {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 48%;
+}
+@media screen and (min-width: 768px) {
+  .container-number {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 48%;
+    padding: 0 100px;
+  }
 }
 
 .number-box {
   background-color: #F7F7F7;
-  min-width: 193px;
-  width: 48%;
+  width: 170px;
   text-align: center;
+  margin-top: 30px;
 }
 
 .number-box p {
-  padding-top: 20px;
+  margin: 0;
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
@@ -232,7 +272,6 @@ a, li {
 
 .number-box span {
   display: block;
-  padding-bottom: 20px;
   font-family: Open Sans;
   font-style: normal;
   font-weight: 600;

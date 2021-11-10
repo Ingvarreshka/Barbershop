@@ -2,3 +2,17 @@
     padding: 84px 31px;
     outline: 3px solid red;    
 }
+
+.pre-title {
+
+}
+.pre-title::before {
+     width: 60px;
+    height: 1px;
+    background: #9DA4BD99;
+    content: '';
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: middle;
+
+}
